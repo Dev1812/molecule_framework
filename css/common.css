@@ -1,0 +1,89 @@
+/*@font-face {
+  font-family: Myriad_set_pro_text; 
+  src: local('Myriad_set_pro_text'), url(../fonts/myriad-set-pro_thin.woff);
+}*/
+@font-face {
+  font-family: Myriad_set_pro_Thin;
+  src: local('Myriad_set_pro_Thin'), url(../fonts/myriad-set-pro_text.woff);
+}
+
+html, body{margin:0;font-family: Myriad_set_pro_Thin, Arial sans-serif;font-size:15px;}
+input, textarea{font-family: Myriad_set_pro_Thin, Arail sans-serif}
+.fl_l{float:left;}
+.fl_r{float:right;}
+a{color:blue;text-decoration:none;}
+/*a:hover{color:#808080;}*/
+
+
+.head{height:45px;padding:0 14px;background-color: #607D8B;border-bottom:1px solid #DEDEDE;}
+.head__link{color:#FFF;float:left;padding:13px 7px;}
+.head .head__wrap{}
+
+
+.footer{padding:17px 0;border-top:1px solid #DEDEDE;text-align: center;}
+
+
+@media screen and (max-width : 1024px) {
+  .footer{padding:17px 17px;}
+}
+@media screen and (max-width : 800px) {
+  .footer{padding:17px 17px;}
+  .hide_on_mobile{display:none;}
+}
+@media screen and (max-width : 420px) {
+  .footer{padding:17px 17px;}
+  .hide_on_mobile{display:none;}
+}
+.error_message{text-align:center;padding:74px 0;font-size:24px;}
+
+
+.flat_button_wrap{
+background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+
+    position:fixed;bottom:17px;right:17px;width:55px;height:55px;text-align:center;border-radius:50px;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+    .button{
+
+
+background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+
+   text-align:center;border-radius:3px;
+    cursor: pointer;
+    z-index: 1000;
+
+    color:#FFF;
+    border:0;
+
+    padding:8px 11px;
+
+    }
+
+
+    .button_solid{
+
+   text-align:center;border-radius:3px;
+    cursor: pointer;
+    z-index: 1000;
+
+    border:0;
+
+    padding:4px 11px;
+    background-color:transparent;
+    color:#28a745;
+/*border:1px solid #28a745;*/
+    }
+
+    .button_solid:hover{
+    color:#FFF;
+      
+background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+color:#FFF;
+
+  }
+.flat_button{margin-top:15px;}
